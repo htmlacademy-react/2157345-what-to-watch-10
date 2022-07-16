@@ -7,7 +7,7 @@ import {
 
 const filmObject: FilmData = {
   id: 1,
-  title: 'The Grand Budapest Hotel 1111111', // Изменено для проверки
+  title: 'The Grand Budapest Hotel',
   genre: 'Drama',
   year: 2014,
 };

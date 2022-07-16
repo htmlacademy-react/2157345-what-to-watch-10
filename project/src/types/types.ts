@@ -1,3 +1,5 @@
+import { AuthStatus } from '../const';
+
 type FilmData = {
     id: number,
     title: string,
@@ -9,4 +11,9 @@ type FilmObjectProps = {
   filmObject: FilmData,
 };
 
-export type {FilmData, FilmObjectProps};
+type PrivateRouteProps = {
+  authStatus: AuthStatus;
+  children: JSX.Element;
+}
+
+export type {FilmData, FilmObjectProps, PrivateRouteProps};
